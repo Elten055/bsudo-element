@@ -1,0 +1,166 @@
+
+
+  
+  * {
+    box-sizing: border-box;
+  }
+
+
+
+  
+  :root {
+    --primary-blue: #4361ee;
+    --primary-blue-dark: #4361ee;
+    --text-white: #e01818;
+    --text-gray: #B5B8BC;
+    --text-color: #303651;
+    --text-color-neutral: #697089;
+    --card-bg: #222429;
+    --bg: #141419;
+  }
+  
+  
+  body {
+    background: var(--bg);
+    padding: 1.5rem; padding-top: 8.5rem;
+    margin: 0;
+    height: 100vh;
+  }
+  
+  .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem 7rem;
+    
+  }
+  
+  .card1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    width: 60%;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background: var(--card-bg);
+    color: var(--text-gray);
+    transition: 1s;
+    
+  }
+  
+  .card1:hover {
+    transform: translateY(-2rem);
+  }
+  
+  .card1--con4 {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+  
+  .card1__con2 {
+    color: var(--text-white);
+    font-weight: 700;
+    flex-wrap: wrap;
+    font-size: 2rem;
+  }
+  
+  .card1__con5 {
+    height: 1rem;
+    width: 100%;
+    position: absolute;
+    color:black;
+    top: -2.5rem;
+  }
+  
+  .card1__con5+.card1 {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+  
+  .card1_con1 {
+    color: var(--text-gray);
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  .card1>h3 {
+    margin: 0;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--text-white);
+  }
+  
+  
+  .card1>.con3 {
+    display: block;
+    width: 100%;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3rem;
+    border-radius: 0.5rem;
+    color: black;
+    margin-top: auto;
+    text-decoration: none;
+    letter-spacing: 0.75px;
+    background:rgb(22, 6, 160);
+    transition: 1s;
+  }
+  
+  .card1>.con3:hover {
+    background: white;
+  }
+  
+  .card1__con5 {
+    width: 100%;
+    min-height: 2.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    background:rgb(22, 6, 160);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+
+  
+  .card1>ul {
+    width: 100%;
+    display: flex;
+    margin-top: 2.5rem;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .card1>ul>li {
+    position: relative;
+    font-weight: 500;
+    list-style-type: none;
+    font-size: 0.875rem;
+  }
+  .card1>ul>li>i{
+      padding-top: 15px;
+      margin-right: 15px;
+      color: blue;
+  }
+
+
+
+
+
+
+
+
+
+
+
+      
+html {
+
+    font-family: Manrope, sans-serif;
+  }
